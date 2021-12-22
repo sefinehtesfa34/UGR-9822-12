@@ -1,0 +1,47 @@
+@media screen and (min-width:360px) and (max-width:767px) {
+    nav ul {
+        justify-content: center;
+        padding: 0 0;
+        flex-wrap: wrap;
+    }
+    .mama {
+        padding-left: 2em;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .im1 {
+        float: left;
+        width: 400px;
+    }
+    .v1 {
+        margin-left: 1em;
+        width: 100%;
+    }
+    #two {
+        width: auto;
+    }
+    .vid {
+        width: 95%;
+        margin: 0 1em;
+        text-align: justify;
+    }
+    video {
+        width: 100%;
+    }
+    #fof {
+        padding-right: 1%;
+        padding-left: 40%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:900px) {
+    nav ul {
+        justify-content: center;
+        padding: 0 0;
+        flex-wrap: nowrap;
+    }
+    #fof {
+        padding-right: 10%;
+        padding-left: 20%;
+    }
+}
